@@ -1,0 +1,43 @@
+.bubbles__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bubble__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2;
+}
+
+.bubble__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.bubble__card:hover {
+    background: transparent;
+    border: var(--color-primary-variant);
+    cursor: default;
+}
+
+.bubble__icon {
+    color: var(--color-primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.bubble__card h5 {
+    font-size: .95rem;
+}
+
+.bubble__card small {
+    font-size: .8rem;
+    color: var(--color-light);
+}
