@@ -1,0 +1,38 @@
+.framework__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.framework__container > div {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    transition: var(--transition);
+}
+
+.framework__container > div:hover {
+    background: transparent;
+    border: var(--color-primary-variant);
+    cursor: default;
+}
+
+.framework__container > div > h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.tools__card {
+    display: flex;
+    gap: 1rem;
+}
+
+.tools__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
