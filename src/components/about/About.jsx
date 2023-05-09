@@ -1,7 +1,9 @@
 import React from 'react'
 import './about.css'
-import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlined';
 import About_pic from '../../assets/about-pic.jpg'
+import spikeball from '../../assets/spikeball.png'
+import pickleball from '../../assets/pickleball.jpeg'
+import chess from '../../assets/chess.jpeg'
 
 function About() {
   return (
@@ -16,27 +18,16 @@ function About() {
             <h2>About Me</h2>
             <h5>Stevens Institute of Technology, B.S in Computer Science, Student, Software Engineer</h5>
           </div>
-          <div className="about__cards">
-            <article className="about__card">
-              <AccountBalanceOutlinedIcon className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Enter some text</small>
-            </article>
-            <article className="about__card">
-              <AccountBalanceOutlinedIcon className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Enter some text</small>
-            </article>
-            <article className="about__card">
-              <AccountBalanceOutlinedIcon className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Enter some text</small>
-            </article>
-          </div>
           <p>
             I am an undergraduate student at Stevens Institute of Technology with plans to graduate in December 2024 with a Bachelors of Science in Computer Science.
             My interests include software development, web development, and systems programming. I am currently seeking a software engineering internship for Summer 2024.
           </p>
+          <div className="about__cards">
+            <img src={spikeball} alt="spikeball" className="item" />
+            <img src={pickleball} alt="spikeball" className="item" />
+            <img src={chess} alt="spikeball" className="item" />
+          </div>
+          <p>On days I am not studying or coding, I enjoy getting outside and hanging out with friends. Summer days I will most likely playing spikeball or pickleball. And when it's not so nice out I love playing chess or codenames with the family.</p>
           <div className='contact'>
             <a href='#contact' className='about-btn'>Contact Me</a>
           </div>
