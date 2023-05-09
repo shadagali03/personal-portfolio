@@ -3,10 +3,11 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import Profile from '../../assets/profile-pic.jpg'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 function Header() {
   return (
-    <header id="home">
+    <header id="home" className='home__background'>
       <div className="container header__container">
         <h5>
           Hello I'm
@@ -16,12 +17,12 @@ function Header() {
         <CTA />
         <HeaderSocials />
         <div className="profile">
-          <img src={Profile} alt="">
-          </img>
+          <img src={Profile} alt="" className='image' />
         </div>
         <a href="#contact" className='scroll__down'>
-          Scroll Down
+          <ArrowDownwardIcon fontSize='large' className='scroll__down__icon'/>
         </a>
+
       </div>
     </header>
   )

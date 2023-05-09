@@ -7,6 +7,7 @@
 #about {
     padding-top: 7rem;
     justify-content: center;
+    background-color: rgb(5, 176, 214);
 }
 
 .title h2 {
@@ -37,7 +38,7 @@
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2;
+    gap: 2rem;
 }
 
 .about__card {
@@ -76,9 +77,16 @@
     color: var(--color-light)
 }
 
+.item {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
 .contact {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .about-btn {
@@ -87,7 +95,7 @@
     cursor: pointer;
     transition: var(--transition);   margin-top: 2rem;
     background: var(--color-primary);
-    color: var(--color-bg); 
+    color: white; 
 
 }
 

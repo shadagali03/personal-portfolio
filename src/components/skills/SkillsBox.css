@@ -19,6 +19,9 @@
     margin: 1rem;
     text-align: center;
     transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bubble__card:hover {
@@ -30,7 +33,12 @@
 .bubble__icon {
     color: var(--color-primary);
     font-size: 2rem;
+    width: 80px;
     margin-bottom: 1rem;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .bubble__card h5 {
@@ -40,4 +48,15 @@
 .bubble__card small {
     font-size: .8rem;
     color: var(--color-light);
+}
+
+@media screen and (max-width: 1024px) {
+    .bubble__cards {
+        grid-template-columns: 1fr;
+    }
+    .bubble__cards > div {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
 }
