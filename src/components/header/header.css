@@ -35,6 +35,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    width: 100%;
 }
 .image {
     background: white;
@@ -50,7 +51,6 @@ header {
     bottom: 5rem;
     font-weight: 300;
     font-size: 0.9rem;
-
     background: var(--color-bg-variant);
     width: 40px;
     height: 40px;
@@ -61,15 +61,15 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-    header {
+    /* header {
         height:68vh;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
-    header {
+    /* header {
         height:100vh;
-    }
+    } */
 
     .scroll__down {
         display: none;

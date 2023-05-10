@@ -4,6 +4,8 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import Profile from '../../assets/profile-pic.jpg'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import Typewriter from "typewriter-effect";
+
 
 function Header() {
   return (
@@ -13,7 +15,13 @@ function Header() {
           Hello I'm
         </h5>
         <h1>Sarang Hadagali</h1>
-        <h5 className="text-light">Software Developer</h5>
+        <Typewriter
+          options={{
+            strings: ['Software Developer', 'Student', ],
+            autoStart: true,
+            loop: true,
+          }}
+        />
         <CTA />
         <HeaderSocials />
         <div className="profile">

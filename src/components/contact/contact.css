@@ -49,7 +49,16 @@
     font-size: .8rem;
 }
 
-form {
+.alert_container {
+    display: flex;
+    justify-content: center;
+}
+.alert {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.message-container {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
