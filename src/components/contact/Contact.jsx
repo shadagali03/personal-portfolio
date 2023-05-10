@@ -35,14 +35,16 @@ function Contact() {
         <h4>Phone: <span className='emails'>609-516-5958</span></h4>
       </h3>
       <div className="container contact__container">
+        <form ref={form} onSubmit={sendEmail}>
         <div className="input__fields">
           <input type="text" placeholder='Your Name*' name='name' required/>
           <input type="email" placeholder='Your Email*' name='email' required/>
           <input type="phone" placeholder='Your Phone Number' name='phone'/>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <textarea name="message" rows="7" placeholder='Your Message*' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send</button>
+          <div>
+            <textarea name="message" rows="7" placeholder='Your Message*' required></textarea>
+            <button type='submit' className='btn btn-primary'>Send</button>
+          </div>
         </form>
       </div>
       <div className="alert-contatiner">
