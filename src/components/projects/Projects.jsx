@@ -9,7 +9,7 @@ function Projects() {
   return (
     <section id="projects">
       <h2>Projects</h2>
-      <h5>Check Out What I've Worked On</h5>
+      <h5 className='sub'>Check Out What I've Worked On</h5>
       <div className="container portfolio__container">
         <div className="items">
         <article className="portfolio__item">

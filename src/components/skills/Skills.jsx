@@ -1,5 +1,4 @@
 import React from 'react'
-import DataArrayIcon from '@mui/icons-material/DataArray';
 import './skills.css'
 import CodeSkills from './CodeSkills';
 import vscodeLogo from '../../assets/vscode.png'

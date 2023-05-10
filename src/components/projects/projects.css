@@ -4,6 +4,10 @@
     gap: 2rem;
     
 }
+
+.sub {
+    color:rgb(31, 73, 116)
+}
 .portfolio__container {
     margin-top: 2rem;
     display: flex;
