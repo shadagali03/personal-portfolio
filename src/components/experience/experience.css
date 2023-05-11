@@ -1,7 +1,12 @@
 #experience {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: var(--background-color-alt);
+    background: var(--color-bg-2);
+}
+
+#experience > h1 {
+    color: white;
+    text-align: center;
 }
 
 #experience > h5 {

@@ -12,7 +12,7 @@ function Experience() {
     <div className="body">
     <section id="experience">
       <div className="body"></div>
-      <h2 className='title'>Timeline</h2>
+      <h1 className='title'>Timeline</h1>
       <h5>Quick Summary Of My Work Experience</h5>
       <VerticalTimeline>
         <VerticalTimelineElement
