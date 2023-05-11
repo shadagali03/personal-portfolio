@@ -15,8 +15,8 @@ function About() {
         </div>
         <div className="about__content">
           <div className='title'>
-            <h2>About Me</h2>
-            <h5>Stevens Institute of Technology, B.S in Computer Science, Student, Software Engineer</h5>
+            <h1>About Me</h1>
+            <h5>Stevens Institute of Technology, B.S in Computer Science</h5>
           </div>
           <p>
             I am an undergraduate student at Stevens Institute of Technology with plans to graduate in December 2024 with a Bachelors of Science in Computer Science.

@@ -1,6 +1,11 @@
 #experience {
-    background: rgb(5, 176, 214);
-    
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: var(--background-color-alt);
+}
+
+#experience > h5 {
+    color: white;
 }
 .time__icon {
     max-width: 100%;
@@ -13,3 +18,8 @@
     margin-top: 25%;
     max-height: 100%;
 }
+
+.title {
+    color: white;
+}
+

@@ -5,9 +5,11 @@
     
 }
 
-.sub {
-    color:rgb(31, 73, 116)
+#projects > h1, #projects > h5 {
+    text-align: center;
+    color: var(--background-color-alt);
 }
+
 .portfolio__container {
     margin-top: 2rem;
     display: flex;
@@ -19,7 +21,6 @@
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.3rem;
-    /* border: 2rem; */
     transition: var(--transition);
     border-radius: 1.5rem;
     width: 400px;
@@ -32,6 +33,10 @@
     width: 350px;
     height: 250px;
     margin-left: .45rem;
+}
+
+.btn {
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -3,6 +3,7 @@ import './footer.css'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import HeaderSocials from '../header/HeaderSocials';
 
+
 function Footer() {
   return (
     <div id="footer">

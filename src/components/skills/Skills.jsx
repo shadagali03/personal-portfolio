@@ -12,7 +12,7 @@ import firebaseLogo from '../../assets/firebase.png'
 function Skills() {
   return (
     <section id="skills">
-      <h2>Skills</h2>
+      <h1>Skills</h1>
       <h5>Some of the language/framworks I've used over the years</h5>
       <div className="container framework__container">
         <div className="tools">

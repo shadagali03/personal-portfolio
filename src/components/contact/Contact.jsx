@@ -7,10 +7,6 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Collapse from '@mui/material/Collapse';
 
-
-
-
-
 function Contact() {
   const form = useRef();
   const [open, setOpen] = React.useState(false);
@@ -19,17 +15,17 @@ function Contact() {
     e.preventDefault();
     setOpen(true);
 
-    // emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_API_KEY)
-    //   .then((result) => {
-    //       console.log(result.text);
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_API_KEY)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
       e.target.reset();
   };
   return (
     <section id="contact">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>
       <h3 className='emails'>
         <h4>Email: <span className='emails'>sarang.hadagali@gmail.com || shadagal@stevens.edu</span></h4>
         <h4>Phone: <span className='emails'>609-516-5958</span></h4>
