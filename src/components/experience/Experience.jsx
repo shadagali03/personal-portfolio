@@ -70,9 +70,9 @@ function Experience() {
           icon={<img src={ninjas} alt='C-Logo' className='tek__icon'/>}
           // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
-          <h4 className="vertical-timeline-element-subtitle">Tektronix</h4>
-          <h5 className="vertical-timeline-element-subtitle">Beaverton, OR</h5>
+          <h3 className="vertical-timeline-element-title">Code Sensei</h3>
+          <h4 className="vertical-timeline-element-subtitle">Code Ninjas</h4>
+          <h5 className="vertical-timeline-element-subtitle">West Windsor, NJ</h5>
           <p>
             Worked as a coding instructor that taught kids aged 5-13 on how to code in Python and Javascript.
           </p>
