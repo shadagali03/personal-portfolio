@@ -7,7 +7,7 @@
 #about {
     padding-top: 7rem;
     justify-content: center;
-    background-color: rgb(5, 176, 214);
+    background: var(--color-bg-2);
 }
 
 .title h2 {
@@ -15,12 +15,18 @@
     font-size: 32px;
 }
 .title h5 {
-    font-weight: 300;
-    color: var(--color-light);
+    font-weight: 500;
+    color: var(--color-white);
 }
+
 
 .about__content {
     margin-left: 2rem;
+}
+
+.about__content > p {
+    margin-left: 2rem;
+    color: var(--color-white);
 }
 
 .about__me {
@@ -32,7 +38,7 @@
 .about__me-image {
     border-radius: 50%;
     padding: 10px;
-    background: var(--color-light);
+    background: var(--color-white);
 }
 
 .about__cards {
@@ -67,14 +73,8 @@
     font-size: .95rem;
 }
 
-.about__card small {
-    font-size: .8rem;
-    color: var(--color-light);
-}
-
 .about__container p {
     margin: 2rem 0 0;
-    color: var(--color-light)
 }
 
 .item {
@@ -96,7 +96,11 @@
     transition: var(--transition);   margin-top: 2rem;
     background: var(--color-primary);
     color: white; 
+}
 
+.about-btn:hover {
+    color: white; 
+    background: rgb(31, 150, 214);
 }
 
 @media  screen and (max-width:1024px) {

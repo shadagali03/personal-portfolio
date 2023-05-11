@@ -8,7 +8,7 @@ import cpu from '../../assets/CPU2.png'
 function Projects() {
   return (
     <section id="projects">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <h5>Check Out What I've Worked On</h5>
       <div className="container portfolio__container">
         <div className="items">

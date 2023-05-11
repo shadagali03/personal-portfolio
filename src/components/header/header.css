@@ -51,13 +51,19 @@ header {
     bottom: 5rem;
     font-weight: 300;
     font-size: 0.9rem;
-    background: var(--color-bg-variant);
+    background: var(--color-bg-2);
+    color: white;
     width: 40px;
     height: 40px;
     font-weight: 300;
     font-size: 0.9rem;
     border-radius: 50%;
     margin-right: 50px;
+}
+
+.scroll__down:hover {
+    background: rgb(31, 150, 214);
+    color: white;
 }
 
 @media screen and (max-width: 1024px) {

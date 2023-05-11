@@ -2,9 +2,17 @@
     background: var(--color-white);
 }
 
-#skills > h5 {
-    color:rgb(31, 73, 116)
+#skills > h1 {
+    text-align: center;
+    color: var(--background-color-alt);
 }
+
+#skills > h5 {
+    color: var(--background-color-alt);
+    margin-bottom: 1rem;
+}
+
+
 .framework__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,17 +29,17 @@
 }
 
 .framework__container > div:hover {
-    background: transparent;
-    border: var(--color-primary-variant);
+    background: var(--color-bg-2);
     cursor: default;
 }
 
 .framework__container > div > h3 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: rem;
     margin-bottom: 1rem;
-    color: var(--color-primary);
 }
+
+
 
 .tools__card {
     display: flex;
@@ -43,6 +51,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
+
 
 @media screen and (max-width: 1024px) {
     .framework__container {

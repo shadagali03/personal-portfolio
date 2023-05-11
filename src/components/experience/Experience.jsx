@@ -9,7 +9,11 @@ import ninjas from '../../assets/codeNinjas.png'
 
 function Experience() {
   return (
+    <div className="body">
     <section id="experience">
+      <div className="body"></div>
+      <h1 className='title'>Timeline</h1>
+      <h5>Quick Summary Of My Work Experience</h5>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -75,6 +79,7 @@ function Experience() {
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
+    </div>
   )
 }
 
