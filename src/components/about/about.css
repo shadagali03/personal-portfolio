@@ -96,7 +96,11 @@
     transition: var(--transition);   margin-top: 2rem;
     background: var(--color-primary);
     color: white; 
+}
 
+.about-btn:hover {
+    color: white; 
+    background: rgb(31, 150, 214);
 }
 
 @media  screen and (max-width:1024px) {
