@@ -17,8 +17,23 @@ function Experience() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={{ background: 'rgb(251, 128, 66)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(251, 123, 38)' }}
+          date="September 2023"
+          iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
+          icon={<img src={ssmif} alt='C-Logo' className='time__icon'/>}
+        >
+          <h3 className="vertical-timeline-element-title">Incoming Course Assistant</h3>
+          <h4 className="vertical-timeline-element-subtitle">Stevens Institute of Technology</h4>
+          <h5 className="vertical-timeline-element-subtitle">Hoboken, NJ</h5>
+          <p>
+            I will be working as a Course Assistant for the Algorithms course at Stevens.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(251, 128, 66)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(251, 123, 38)' }}
           date="May 2023 - August 2023"
           iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
           icon={<img src={merck} alt='C-Logo' className='time__icon'/>}
@@ -32,8 +47,8 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(255, 78, 78)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(255, 78, 78)' }}
+          contentStyle={{ background: 'rgb(251, 128, 66)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(251, 123, 38)' }}
           date="September 2022 - Present"
           iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
           icon={<img src={ssmif} alt='C-Logo' className='time__icon'/>}
@@ -48,8 +63,8 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="May 2022 - August 2022"
-          contentStyle={{ background: 'rgb(0, 122, 24)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(0, 122, 24)' }}
+          contentStyle={{ background: 'rgb(251, 128, 66)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(251, 123, 38)' }}
           iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
           icon={<img src={tek} alt='C-Logo' className='tek__icon'/>}
           // icon={<WorkIcon />}
@@ -70,9 +85,9 @@ function Experience() {
           icon={<img src={ninjas} alt='C-Logo' className='tek__icon'/>}
           // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
-          <h4 className="vertical-timeline-element-subtitle">Tektronix</h4>
-          <h5 className="vertical-timeline-element-subtitle">Beaverton, OR</h5>
+          <h3 className="vertical-timeline-element-title">Code Sensei</h3>
+          <h4 className="vertical-timeline-element-subtitle">Code Ninjas</h4>
+          <h5 className="vertical-timeline-element-subtitle">West Windsor, NJ</h5>
           <p>
             Worked as a coding instructor that taught kids aged 5-13 on how to code in Python and Javascript.
           </p>
