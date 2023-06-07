@@ -14,4 +14,4 @@ npm start
 ```
 I have also deployed the portfolio at https://celadon-dango-d36e62.netlify.app
 
-## Thanks for stopping bye!
+## Thanks for stopping by!
